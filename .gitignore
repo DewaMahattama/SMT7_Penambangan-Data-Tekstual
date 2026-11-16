@@ -1,0 +1,18 @@
+# Lingkungan virtual dan cache
+venv/
+__pycache__/
+*.pyc
+.ipynb_checkpoints/
+
+# Model dan data besar (tidak di-push)
+artifacts/*
+!artifacts/README.md
+*.pkl
+*.joblib
+*.safetensors
+*.bin
+*.pt
+
+# Lainnya
+.DS_Store
+*.log
