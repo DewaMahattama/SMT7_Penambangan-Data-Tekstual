@@ -9,12 +9,12 @@ Accuracy 70,29% · Macro-F1 0,68 (3 kelas, 1.013 data uji)
 ## Menjalankan aplikasi
 1. Gunakan Python 3.11 atau 3.12.
 2. Buat lingkungan dan pasang dependensi:
-python -m venv venv
-venv\Scripts\activate
-pip install -r requirements.txt
+  python -m venv venv
+  venv\Scripts\activate
+  pip install -r requirements.txt
 3. Siapkan folder `artifacts/` (lihat `artifacts/README.md`).
 4. Jalankan:
-python -m streamlit run app.py
+  python -m streamlit run app.py
 
 
 ## Struktur
